@@ -55,7 +55,7 @@ h1 {
         top: 0;
         height: 100%;
         width: 100%;
-        display: none;
+        display: block;
         z-index: 100;
     }
     #nav-sp ul {
@@ -96,5 +96,10 @@ h1 {
         background-image: url("images/arrow.png");
         background-repeat: no-repeat;
         background-position: right top;
+    }
+    #main-visual > img {
+        width: 100%;
+        top: auto;
+        bottom: 0;
     }
 }
