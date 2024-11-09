@@ -36,6 +36,7 @@ h1 {
     display: none;
 }
 @media screen and (max-width: 767px) {
+
     #nav-pc {
         display: none;
     }
